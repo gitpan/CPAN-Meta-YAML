@@ -1,4 +1,7 @@
 package CPAN::Meta::YAML;
+BEGIN {
+  $CPAN::Meta::YAML::VERSION = '0.002';
+}
 
 use strict;
 
@@ -15,8 +18,6 @@ BEGIN {
 	require 5.004;
 	require Exporter;
 	require Carp;
-	$CPAN::Meta::YAML::VERSION   = '1.46';
-	# $CPAN::Meta::YAML::VERSION   = eval $CPAN::Meta::YAML::VERSION;
 	@CPAN::Meta::YAML::ISA       = qw{ Exporter  };
 	@CPAN::Meta::YAML::EXPORT    = qw{ Load Dump };
 	@CPAN::Meta::YAML::EXPORT_OK = qw{ LoadFile DumpFile freeze thaw };
@@ -643,7 +644,26 @@ CPAN::Meta::YAML - Read and write a subset of YAML for CPAN Meta files
 
 =head1 VERSION
 
-version 0.001
+version 0.002
+
+=head1 SYNOPSIS
+
+    use CPAN::Meta::YAML;
+
+    # methods for files
+    $yaml = CPAN::Meta::YAML->read('META.yml');
+    $yaml->write('MYMETA.yml');
+
+    # methods for strings
+    $yaml_text = $yaml->write_string;
+    $yaml = CPAN::Meta::YAML->read_string($yaml_text);
+
+    # finding the metadata
+    my $meta = $yaml->[0];
+
+    # handling errors
+    $yaml->write($file)
+      or die CPAN::Meta::YAML->errstr;
 
 =head1 DESCRIPTION
 

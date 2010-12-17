@@ -30,7 +30,7 @@ no_index:
 provides:
   CPAN::Meta::YAML:
     file: lib/CPAN/Meta/YAML.pm
-    version: 0.001
+    version: 0.002
 requires:
   Carp: 0
   Exporter: 0
@@ -39,4 +39,4 @@ requires:
 resources:
   homepage: http://github.com/dagolden/cpan-meta-yaml/tree
   repository: git://github.com/dagolden/cpan-meta-yaml.git
-version: 0.001
+version: 0.002
