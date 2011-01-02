@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-BEGIN { require 5.006; }
+BEGIN { require 5.004; }
 
 use ExtUtils::MakeMaker 6.31;
 
@@ -12,10 +12,8 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'Read and write a subset of YAML for CPAN Meta files',
   'AUTHOR' => 'Adam Kennedy <adamk@cpan.org>, David Golden <dagolden@cpan.org>',
   'BUILD_REQUIRES' => {
-    'File::Find' => '0',
     'File::Spec' => '0',
     'File::Spec::Functions' => '0',
-    'File::Temp' => '0',
     'Test::More' => '0',
     'vars' => '0'
   },
@@ -31,7 +29,7 @@ my %WriteMakefileArgs = (
     'Exporter' => '0',
     'Scalar::Util' => '0'
   },
-  'VERSION' => '0.002',
+  'VERSION' => '0.003',
   'test' => {
     'TESTS' => 't/*.t'
   }

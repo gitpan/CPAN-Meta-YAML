@@ -2,7 +2,7 @@ NAME
     CPAN::Meta::YAML - Read and write a subset of YAML for CPAN Meta files
 
 VERSION
-    version 0.002
+    version 0.003
 
 SYNOPSIS
         use CPAN::Meta::YAML;
@@ -35,7 +35,7 @@ SUPPORT
     <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=YAML-Tiny>
 
 SEE ALSO
-    YAML, YAML::Syck, YAML::LibYAML, YAML::XS
+    YAML::Tiny, YAML, YAML::XS
 
 AUTHORS
     *   Adam Kennedy <adamk@cpan.org>
