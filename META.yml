@@ -9,9 +9,9 @@ build_requires:
   Test::More: 0
   vars: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.31
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200001, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,13 +28,15 @@ no_index:
 provides:
   CPAN::Meta::YAML:
     file: lib/CPAN/Meta/YAML.pm
-    version: 0.003
+    version: 0.004
 requires:
   Carp: 0
   Exporter: 0
   Scalar::Util: 0
   perl: 5.004
+  strict: 0
 resources:
-  homepage: http://github.com/dagolden/cpan-meta-yaml/tree
-  repository: git://github.com/dagolden/cpan-meta-yaml.git
-version: 0.003
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Meta-YAML
+  homepage: http://github.com/dagolden/cpan-meta-yaml
+  repository: http://github.com/dagolden/cpan-meta-yaml
+version: 0.004

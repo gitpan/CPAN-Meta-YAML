@@ -5,7 +5,7 @@
       "David Golden <dagolden@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200001, CPAN::Meta::Converter version 2.102400",
+   "generated_by" : "Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -28,7 +28,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "runtime" : {
@@ -36,7 +36,8 @@
             "Carp" : 0,
             "Exporter" : 0,
             "Scalar::Util" : 0,
-            "perl" : "5.004"
+            "perl" : "5.004",
+            "strict" : 0
          }
       },
       "test" : {
@@ -51,18 +52,22 @@
    "provides" : {
       "CPAN::Meta::YAML" : {
          "file" : "lib/CPAN/Meta/YAML.pm",
-         "version" : "0.003"
+         "version" : "0.004"
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "http://github.com/dagolden/cpan-meta-yaml/tree",
+      "bugtracker" : {
+         "mailto" : "bug-cpan-meta-yaml at rt.cpan.org",
+         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Meta-YAML"
+      },
+      "homepage" : "http://github.com/dagolden/cpan-meta-yaml",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/dagolden/cpan-meta-yaml.git",
-         "web" : "http://github.com/dagolden/cpan-meta-yaml/tree"
+         "url" : "http://github.com/dagolden/cpan-meta-yaml",
+         "web" : "http://github.com/dagolden/cpan-meta-yaml"
       }
    },
-   "version" : "0.003"
+   "version" : "0.004"
 }
 

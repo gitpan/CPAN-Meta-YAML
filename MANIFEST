@@ -37,3 +37,4 @@ t/data/vanilla.yml
 t/lib/Test.pm
 xt/release/distmeta.t
 xt/release/pod-syntax.t
+xt/release/test-version.t
