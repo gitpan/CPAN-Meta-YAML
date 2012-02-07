@@ -4,7 +4,7 @@ use warnings;
 
 use 5.004;
 
-use ExtUtils::MakeMaker 6.30;
+use ExtUtils::MakeMaker 6.17;
 
 
 
@@ -12,13 +12,16 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Read and write a subset of YAML for CPAN Meta files",
   "AUTHOR" => "Adam Kennedy <adamk\@cpan.org>, David Golden <dagolden\@cpan.org>",
   "BUILD_REQUIRES" => {
+    "File::Find" => 0,
     "File::Spec" => 0,
     "File::Spec::Functions" => 0,
+    "File::Temp" => 0,
     "Test::More" => 0,
-    "vars" => 0
+    "vars" => 0,
+    "warnings" => 0
   },
   "CONFIGURE_REQUIRES" => {
-    "ExtUtils::MakeMaker" => "6.30"
+    "ExtUtils::MakeMaker" => "6.17"
   },
   "DISTNAME" => "CPAN-Meta-YAML",
   "EXE_FILES" => [],
@@ -30,7 +33,7 @@ my %WriteMakefileArgs = (
     "Scalar::Util" => 0,
     "strict" => 0
   },
-  "VERSION" => "0.005",
+  "VERSION" => "0.006",
   "test" => {
     "TESTS" => "t/*.t"
   }
