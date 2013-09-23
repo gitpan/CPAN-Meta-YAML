@@ -61,22 +61,22 @@
    "provides" : {
       "CPAN::Meta::YAML" : {
          "file" : "lib/CPAN/Meta/YAML.pm",
-         "version" : "0.009"
+         "version" : "0.010"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/dagolden/cpan-meta-yaml/issues"
+         "web" : "https://github.com/dagolden/CPAN-Meta-YAML/issues"
       },
-      "homepage" : "https://github.com/dagolden/cpan-meta-yaml",
+      "homepage" : "https://github.com/dagolden/CPAN-Meta-YAML",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/dagolden/cpan-meta-yaml.git",
-         "web" : "https://github.com/dagolden/cpan-meta-yaml"
+         "url" : "https://github.com/dagolden/CPAN-Meta-YAML.git",
+         "web" : "https://github.com/dagolden/CPAN-Meta-YAML"
       }
    },
-   "version" : "0.009",
+   "version" : "0.010",
    "x_authority" : "cpan:DAGOLDEN"
 }
 

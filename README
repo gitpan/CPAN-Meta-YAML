@@ -2,7 +2,7 @@ NAME
     CPAN::Meta::YAML - Read and write a subset of YAML for CPAN Meta files
 
 VERSION
-    version 0.009
+    version 0.010
 
 SYNOPSIS
         use CPAN::Meta::YAML;
@@ -44,16 +44,16 @@ SEE ALSO
 SUPPORT
   Bugs / Feature Requests
     Please report any bugs or feature requests through the issue tracker at
-    <https://github.com/dagolden/cpan-meta-yaml/issues>. You will be
+    <https://github.com/dagolden/CPAN-Meta-YAML/issues>. You will be
     notified automatically of any progress on your issue.
 
   Source Code
     This is open source software. The code repository is available for
     public review and contribution under the terms of the license.
 
-    <https://github.com/dagolden/cpan-meta-yaml>
+    <https://github.com/dagolden/CPAN-Meta-YAML>
 
-      git clone https://github.com/dagolden/cpan-meta-yaml.git
+      git clone https://github.com/dagolden/CPAN-Meta-YAML.git
 
 AUTHORS
     *   Adam Kennedy <adamk@cpan.org>

@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "vars" => 0
   },
-  "VERSION" => "0.009",
+  "VERSION" => "0.010",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -70,7 +70,9 @@ unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {
 delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
   unless eval { ExtUtils::MakeMaker->VERSION(6.52) };
 
+# Added by Dist::Zilla::Plugin::MakeMaker::Highlander
 if ( $] < 5.012
+  && ! $ENV{PERL_NO_HIGHLANDER}
   && ! ( $ENV{PERL_MM_OPT} && $ENV{PERL_MM_OPT} =~ /(?:INSTALL_BASE|PREFIX)/ )
   && ! grep { /INSTALL_BASE/ || /PREFIX/ } @ARGV
 ) {

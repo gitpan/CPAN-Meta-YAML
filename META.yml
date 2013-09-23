@@ -31,7 +31,7 @@ no_index:
 provides:
   CPAN::Meta::YAML:
     file: lib/CPAN/Meta/YAML.pm
-    version: 0.009
+    version: 0.010
 requires:
   Carp: 0
   Exporter: 0
@@ -39,8 +39,8 @@ requires:
   perl: 5.006
   warnings: 0
 resources:
-  bugtracker: https://github.com/dagolden/cpan-meta-yaml/issues
-  homepage: https://github.com/dagolden/cpan-meta-yaml
-  repository: https://github.com/dagolden/cpan-meta-yaml.git
-version: 0.009
+  bugtracker: https://github.com/dagolden/CPAN-Meta-YAML/issues
+  homepage: https://github.com/dagolden/CPAN-Meta-YAML
+  repository: https://github.com/dagolden/CPAN-Meta-YAML.git
+version: 0.010
 x_authority: cpan:DAGOLDEN

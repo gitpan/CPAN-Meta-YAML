@@ -8,7 +8,7 @@ use Test::More 0.94 tests => 1 + ($ENV{AUTHOR_TESTING} ? 1 : 0);
 
 
 my @module_files = (
-    'YAML/Tiny.pm'
+    'CPAN/Meta/YAML.pm'
 );
 
 

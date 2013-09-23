@@ -1,6 +1,6 @@
 package CPAN::Meta::YAML;
 {
-  $CPAN::Meta::YAML::VERSION = '0.009';
+  $CPAN::Meta::YAML::VERSION = '0.010';
 }
 BEGIN {
   $CPAN::Meta::YAML::AUTHORITY = 'cpan:ADAMK';
@@ -657,7 +657,7 @@ CPAN::Meta::YAML - Read and write a subset of YAML for CPAN Meta files
 
 =head1 VERSION
 
-version 0.009
+version 0.010
 
 =head1 SYNOPSIS
 
@@ -706,7 +706,7 @@ L<YAML::Tiny>, L<YAML>, L<YAML::XS>
 =head2 Bugs / Feature Requests
 
 Please report any bugs or feature requests through the issue tracker
-at L<https://github.com/dagolden/cpan-meta-yaml/issues>.
+at L<https://github.com/dagolden/CPAN-Meta-YAML/issues>.
 You will be notified automatically of any progress on your issue.
 
 =head2 Source Code
@@ -714,9 +714,9 @@ You will be notified automatically of any progress on your issue.
 This is open source software.  The code repository is available for
 public review and contribution under the terms of the license.
 
-L<https://github.com/dagolden/cpan-meta-yaml>
+L<https://github.com/dagolden/CPAN-Meta-YAML>
 
-  git clone https://github.com/dagolden/cpan-meta-yaml.git
+  git clone https://github.com/dagolden/CPAN-Meta-YAML.git
 
 =head1 AUTHORS
 
