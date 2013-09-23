@@ -6,6 +6,7 @@ META.json
 META.yml
 Makefile.PL
 README
+cpanfile
 lib/CPAN/Meta/YAML.pm
 t/00-compile.t
 t/01_compile.t
@@ -36,7 +37,7 @@ t/data/two.yml
 t/data/utf_16_le_bom.yml
 t/data/vanilla.yml
 t/lib/Test.pm
-xt/author/pod-spell.t
 xt/release/distmeta.t
 xt/release/pod-syntax.t
+xt/release/portability.t
 xt/release/test-version.t

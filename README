@@ -2,7 +2,7 @@ NAME
     CPAN::Meta::YAML - Read and write a subset of YAML for CPAN Meta files
 
 VERSION
-    version 0.008
+    version 0.009
 
 SYNOPSIS
         use CPAN::Meta::YAML;
@@ -36,7 +36,7 @@ SUPPORT
     This module is currently derived from YAML::Tiny by Adam Kennedy. If
     there are bugs in how it parses a particular META.yml file, please file
     a bug report in the YAML::Tiny bugtracker:
-    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=YAML-Tiny>
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=YAML-Tiny>
 
 SEE ALSO
     YAML::Tiny, YAML, YAML::XS
@@ -44,8 +44,8 @@ SEE ALSO
 SUPPORT
   Bugs / Feature Requests
     Please report any bugs or feature requests through the issue tracker at
-    <http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Meta-YAML>. You
-    will be notified automatically of any progress on your issue.
+    <https://github.com/dagolden/cpan-meta-yaml/issues>. You will be
+    notified automatically of any progress on your issue.
 
   Source Code
     This is open source software. The code repository is available for
