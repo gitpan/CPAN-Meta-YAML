@@ -2,7 +2,7 @@ NAME
     CPAN::Meta::YAML - Read and write a subset of YAML for CPAN Meta files
 
 VERSION
-    version 0.010
+    version 0.011
 
 SYNOPSIS
         use CPAN::Meta::YAML;
